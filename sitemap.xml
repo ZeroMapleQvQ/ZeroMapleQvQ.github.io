@@ -3,11 +3,6 @@
 
 
     <sitemap>
-        <loc>https://blog.zeromaple.tech/post-sitemap.xml</loc>
-        <lastmod>2024-10-13T15:47:48.989Z</lastmod>
-    </sitemap>
-
-    <sitemap>
         <loc>https://blog.zeromaple.tech/page-sitemap.xml</loc>
         <lastmod>2024-10-13T16:30:00.353Z</lastmod>
     </sitemap>

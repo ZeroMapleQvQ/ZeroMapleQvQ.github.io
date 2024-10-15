@@ -12,7 +12,9 @@ Disallow: /
 User-agent: yahoo-blogs/v3.9
 Disallow: /
 User-agent: *
-Disallow: 
+Disallow:
 Crawl-delay: 20
 Disallow: /cgi-bin/
 Sitemap: https://blog.zeromaple.tech/sitemap.xml
+Sitemap: https://blog.zeromaple.tech/post-sitemap.xml
+Sitemap: https://blog.zeromaple.tech/page-sitemap.xml
