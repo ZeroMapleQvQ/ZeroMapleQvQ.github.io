@@ -1,3 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
+  <entry>
+    <title>我的Hyprland配置演示</title>
+    <url>/2024/10/15/hyprland-config/</url>
+    <content><![CDATA[<h1 id="系统环境"><a href="#系统环境" class="headerlink" title="系统环境"></a>系统环境</h1><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/2024/10/15/hyprland-config/fastfetch.png"
+                      alt="系统环境"
+                ></p>
+<h1 id="软件安装"><a href="#软件安装" class="headerlink" title="软件安装"></a>软件安装</h1><p>Hyprland(桌面环境):</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><code class="hljs plaintext">paru -S hyprland-git hyprlock-git hyprcursor-git hyprlang-git hyprutils-git hyprwayland-scanner-git xdg-desktop-portal-hyprland-git<br></code></pre></td></tr></table></figure></div>
+
+<p>Hyprland插件:</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><code class="hljs plaintext">hyprpm add https://github.com/outfoxxed/hy3<br>hyprpm add https://github.com/KZDKM/Hyprspace<br>hyprpm add https://github.com/pyt0xic/hyprfocus<br>hyprpm enable hy3<br>hyprpm enable Hyprspace<br>hyprpm enable hyprfocus<br></code></pre></td></tr></table></figure></div>
+
+<p>Alacritty(终端):</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><code class="hljs plaintext">paru -S alacritty-git<br></code></pre></td></tr></table></figure></div>
+
+<p>waybar(状态栏):</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><code class="hljs plaintext">paru -S waybar-git<br></code></pre></td></tr></table></figure></div>
+
+<p>rofi(应用启动器,和tofi任选其一即可):</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><code class="hljs plaintext">paru -S rofi-git<br></code></pre></td></tr></table></figure></div>
+
+<p>tofi(使用较少):</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><code class="hljs plaintext">paru -S tofi-git<br></code></pre></td></tr></table></figure></div>
+
+<p>swaync(通知守护程序):</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><code class="hljs plaintext">paru -S swaync-git<br></code></pre></td></tr></table></figure></div>
+
+<p>字体:</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><code class="hljs plaintext">paru -S ttf-maple-beta<br></code></pre></td></tr></table></figure></div>
+
+<h1 id="Hyprland配置"><a href="#Hyprland配置" class="headerlink" title="Hyprland配置"></a>Hyprland配置</h1><h2 id="快捷键"><a href="#快捷键" class="headerlink" title="快捷键"></a>快捷键</h2><h3 id="软件启动"><a href="#软件启动" class="headerlink" title="软件启动"></a>软件启动</h3><p>$mainMod + B: 打开浏览器<br>$mainMod + E: 打开文件管理器<br>$mainMod + Enter: 打开终端<br>$mainMod + C: 打开VSCode</p>
+<h3 id="窗口管理"><a href="#窗口管理" class="headerlink" title="窗口管理"></a>窗口管理</h3><p>$mainMod + IJKL: 切换焦点<br>$mainMod + Shift + IJKL: 交换窗口<br>$mainMod + Ctrl + IJKL: 移动窗口 (配置为movewindoworgroup 详情请看<a class="link"   href="https://wiki.hyprland.org/Configuring/Dispatchers/#list-of-dispatchers" >这里 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>)<br>$mainMod + Shift + C: 把浮动窗口居中<br>$mainMod + Space: 切换窗口浮动<br>$mainMod + Shift + Space: 把当前活动窗口放到根窗口<br>$mainMod + Tab: 打开概览(来自Hyprspace插件)</p>
+<p>$mainMod + F: 显示状态栏全屏<br>$mainMod + Shift + F: 隐藏状态栏全屏</p>
+<p>$mainMod + Shift + B: 切换状态栏显示<br>$mainMod + U: 切换是否伪平铺<br>$mainMod + O: 切换分割方向</p>
+<h3 id="tofi-rofi"><a href="#tofi-rofi" class="headerlink" title="tofi&#x2F;rofi"></a>tofi&#x2F;rofi</h3><p>$mainMod + X: 关机菜单<br>$mainMod + A: rofi-drun<br>$mainMod + Shift + A: tofi-run<br>$mainMod + T: tofi-drun<br>$mainMod + Shift + T: rofi-run</p>
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>Hyprland</tag>
+      </tags>
+  </entry>
 </search>
